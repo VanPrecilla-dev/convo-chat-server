@@ -24,7 +24,7 @@ const io = new Server(server, {
 
 
   cors: {
-    origin:"https://van-convochat-client.vercel.app/",
+    origin:"https://convochat-vdu0.onrender.com",
     methods: ["GET", "POST"],
   },
   connectionStateRecovery: {
